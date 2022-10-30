@@ -22,8 +22,8 @@ const pickGlyps = (glyps, glyphmap) =>
 
 const index = fs
   .readdirSync(glypmapDirectory)
-  .filter(f => path.extname(f) === glypmapExtension)
-  .filter(f => !f.startsWith('FontAwesome5'))
+  .filter((f) => path.extname(f) === glypmapExtension)
+  .filter((f) => !f.startsWith('FontAwesome5'))
   .reduce(
     (acc, file) => {
       const name = path.basename(file, glypmapExtension);
