@@ -14,8 +14,7 @@
     "build": "./scripts/build-icons.sh",
     "build-web": "rm -rf ./dist && babel *.js --out-dir ./dist && babel lib --out-dir ./dist/lib && cp -R ./glyphmaps ./dist/glyphmaps",
     "build-fontawesome": "./scripts/fontawesome.sh",
-    "build-fontawesome5": "./scripts/fontawesome5.sh",
-
+    "build-fontawesome5": "./scripts/fontawesome5.sh"
   },
   "keywords": [
     "react-native",
@@ -36,7 +35,7 @@
     "font"
   ],
   "author": {
-    "name": "Joel Arvidsson",
+    "name": "Zaheer",
     "email": "joel@oblador.se"
   },
   "homepage": "https://github.com/oblador/react-native-vector-icons",
